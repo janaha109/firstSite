@@ -1,11 +1,19 @@
-This is my page, yay!
-Hello, world!
-<div class="row">
-  <div class="col-12 col-sm-8 col-md-2 col-lg-4 col-xl-2" style="background-color: limegreen">
-    <button routerLink="">To Homepage</button>
-    <img src="https://www.atlantisbahamas.com/media/Things%20To%20Do/Water%20Park/Beaches/Hero/Experiences_Beach.jpg" style="width: 200px; height: auto">
+<div style="width: 100vw; height: 100vh; background-color: palevioletred">
+  <div class="col-12 col-sm-8 col-md-2 col-lg-4 col-xl-2">
+    <img src="https://commdiginews-wpengine.netdna-ssl.com/wp-content/uploads/2014/08/Burning_World.jpg">
   </div>
-  <div class="col-12 col-md-6" style="background-color:cyan">
-    CONTENT 2
+  <div class="col-12 col-md-14" style="background-color:goldenrod">
+    <span class="coloredText">
+      Trying to get the hang of this
+    </span>
+  </div>
+  <div style="overflow-y: scroll; max-height: 300px">
+    <div *ngFor="let x of comments">
+      Comment left from {{x.name}} at {{x.email}}
+      <br>
+      {{x.comment}}
+      <br>
+      ------------------------------------------------------------
+    </div>
   </div>
 </div>

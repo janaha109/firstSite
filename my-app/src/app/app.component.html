@@ -1,2 +1,9 @@
-<h2>Welcome to my page!</h2>
+<div class="pageHeader" style="padding: 5px">
+    <h2>Jannette Waha</h2>
+    <div class="row" style="background-color: whitesmoke; padding: 5px 0px 5px 0px">
+        <div class="col-12">
+            <a *ngFor="let i of routerLinks" routerLink="{{i.linkAddr}}" style="padding: 5px">{{i.linkName}}</a>&nbsp;
+        </div>
+    </div>
+</div>
 <router-outlet></router-outlet>
