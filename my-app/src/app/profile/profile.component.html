@@ -1,19 +1,31 @@
-<div style="width: 100vw; height: 100vh; background-color: darkgray">
-  <div class="col-12 col-sm-8 col-md-2 col-lg-4 col-xl-2">
-    <img src="">
+<div class="row justify-content-center"> 
+  <div id="g1s{{slide.index}}" class="col-4" [hidden]="galleryView(1, slide.index)" *ngFor="let slide of gallery1">
+    <div>{{slide.index + 1}} / {{gallery1.length}}</div>
+    <img src="{{slide.src}}" style="width:100%">
+    <div>{{slide.txt}}</div>
   </div>
-  <div class="col-12 col-md-14" style="background-color:goldenrod">
-    <span class="coloredText">
-      Trying to get the hang of this
-    </span>
+</div>
+<div class="row">
+  <div class="col">
+    <button style="position: absolute; right: 0px" (click)="left(1)">GO LEFT</button>
   </div>
-  <div style="overflow-y: scroll; max-height: 300px">
-    <div *ngFor="let x of comments">
-      Comment left from {{x.name}} at {{x.email}}
-      <br>
-      {{x.comment}}
-      <br>
-      ------------------------------------------------------------
-    </div>
+  <div class="col">
+    <button (click)="right(1)">GO RIGHT</button>
+  </div>
+</div>
+
+<div class="row justify-content-center"> 
+  <div id="g2s{{slide.index}}" class="col-4" [hidden]="galleryView(2, slide.index)" *ngFor="let slide of gallery2">
+    <div>{{slide.index + 1}} / {{gallery1.length}}</div>
+    <img src="{{slide.src}}" style="width:100%">
+    <div>{{slide.txt}}</div>
+  </div>
+</div>
+<div class="row">
+  <div class="col">
+    <button style="position: absolute; right: 0px" (click)="left(2)">GO LEFT</button>
+  </div>
+  <div class="col">
+    <button (click)="right(2)">GO RIGHT</button>
   </div>
 </div>

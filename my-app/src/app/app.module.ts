@@ -7,13 +7,16 @@ import { AppComponent } from './app.component';
 import { ProfileComponent } from './profile/profile.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { ContactComponent } from './contact/contact.component';
+import { SampleComponent } from './sample/sample.component';
+
 
 @NgModule({
   declarations: [
     AppComponent,
     HomepageComponent,
     ProfileComponent,
-    ContactComponent
+    ContactComponent,
+    SampleComponent,
   ],
   imports: [
     BrowserModule,

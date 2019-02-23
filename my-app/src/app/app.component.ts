@@ -16,6 +16,7 @@ routerLinks: any;
       {linkName: 'Homepage', linkAddr: ''},
       {linkName: 'Profile', linkAddr: '/profile'},
       {linkName: 'Contact', linkAddr: '/contact'},
+      {linkName: 'Quests', linkAddr: '/quests'},
     ]
   }
 }
