@@ -1,3 +1,5 @@
+<div style="width: 100vw; height: 100vh; background-color: rgb(231, 214, 220)">
+  <br>
 <div class="row justify-content-center"> 
   <div id="g1s{{slide.index}}" class="col-4" [hidden]="galleryView(1, slide.index)" *ngFor="let slide of gallery1">
     <div>{{slide.index + 1}} / {{gallery1.length}}</div>
@@ -16,7 +18,7 @@
 
 <div class="row justify-content-center"> 
   <div id="g2s{{slide.index}}" class="col-4" [hidden]="galleryView(2, slide.index)" *ngFor="let slide of gallery2">
-    <div>{{slide.index + 1}} / {{gallery1.length}}</div>
+    <div>{{slide.index + 1}} / {{gallery2.length}}</div>
     <img src="{{slide.src}}" style="width:100%">
     <div>{{slide.txt}}</div>
   </div>
