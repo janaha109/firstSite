@@ -19,7 +19,7 @@ const routes: Routes = [
     component: ContactComponent
   },
   {
-    path: "quests",
+    path: "sample",
     component: SampleComponent
   },
   {

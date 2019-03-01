@@ -13,10 +13,10 @@ routerLinks: any;
 
   ngOnInit() {
     this.routerLinks = [
-      {linkName: 'Homepage', linkAddr: ''},
+      {linkName: 'Entrance', linkAddr: 'homepage'},
       {linkName: 'Timeline', linkAddr: '/profile'},
-      {linkName: 'Contact', linkAddr: '/contact'},
-      {linkName: 'Quests', linkAddr: '/quests'},
+      {linkName: 'Social Corner', linkAddr: '/contact'},
+      {linkName: 'End Game', linkAddr: '/sample'},
     ]
   }
 }
