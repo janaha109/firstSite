@@ -14,7 +14,7 @@ routerLinks: any;
   ngOnInit() {
     this.routerLinks = [
       {linkName: 'Homepage', linkAddr: ''},
-      {linkName: 'Profile', linkAddr: '/profile'},
+      {linkName: 'Timeline', linkAddr: '/profile'},
       {linkName: 'Contact', linkAddr: '/contact'},
       {linkName: 'Quests', linkAddr: '/quests'},
     ]

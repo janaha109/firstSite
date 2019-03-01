@@ -1,6 +1,7 @@
-<div style="width: 100vw; height: 100vh; background-color: rgb(231, 214, 220)">
+<div style="width: 100vw; height: 180vh; background-color: rgb(231, 214, 220)">
   <br>
-<div class="row justify-content-center"> 
+<div class="col">
+  <div class="row justify-content-center"> 
   <div id="g1s{{slide.index}}" class="col-4" [hidden]="galleryView(1, slide.index)" *ngFor="let slide of gallery1">
     <div>{{slide.index + 1}} / {{gallery1.length}}</div>
     <img src="{{slide.src}}" style="width:100%">
