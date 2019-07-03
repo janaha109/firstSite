@@ -16,14 +16,17 @@ gallery2CI = 0;
 
   ngOnInit() {
     this.gallery1 = [
-      {index: 0, src: 'https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/52444221_2275902616010864_2280256991383257088_o.jpg?_nc_cat=104&_nc_ht=scontent-dfw5-2.xx&oh=d1a71a25d939788d4aaeea975e7465d6&oe=5CE39407', txt: 'HOR with Alex (2017)'},
-      {index: 1, src: 'https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/52522634_2275902656010860_1992630788281073664_n.jpg?_nc_cat=110&_nc_ht=scontent-dfw5-2.xx&oh=5db7538cc1385d405288d5a7e2e42913&oe=5CE27BF6', txt: 'LBT Barbacking Days (2016)'},
-      {index: 2, src: 'https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/51879044_2275902729344186_1707330906970128384_n.jpg?_nc_cat=108&_nc_ht=scontent-dfw5-2.xx&oh=9a6e852de731527f6482a0391775ac64&oe=5CE6610A', txt: 'Bea and I LBT Work Party (2016)'},
-      {index: 3, src: 'https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/52743958_2275902886010837_7991404704296861696_n.jpg?_nc_cat=104&_nc_ht=scontent-dfw5-2.xx&oh=e86ea9717bbe3b2f5af84d1d98ba84ac&oe=5D25ECA6', txt: 'Euless, Texas (2016'},
-      {index: 4, src: 'https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/52595927_2275902909344168_4691275984375119872_n.jpg?_nc_cat=108&_nc_ht=scontent-dfw5-2.xx&oh=b8e217f21b95c60a7cf94d83e2b4c422&oe=5D26E969', txt: 'Unknown Location (2016)'},
-      {index: 5, src: 'https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/52331964_2275903016010824_1450727183927476224_n.jpg?_nc_cat=105&_nc_ht=scontent-dfw5-2.xx&oh=ab6b802f17accedb65085fcbbd151f5f&oe=5CEA8452', txt: 'Chill Times (2015)'},
-      {index: 6, src: 'https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/52453408_2275903182677474_7093181134074281984_n.jpg?_nc_cat=108&_nc_ht=scontent-dfw5-2.xx&oh=9b24865b801508b06a1b1b8b14bbdc36&oe=5CE9BEEA', txt: 'Cookie Hangout (2015)'},
-      {index: 7, src: 'https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/52649409_2275903252677467_7100436600852578304_n.jpg?_nc_cat=110&_nc_ht=scontent-dfw5-2.xx&oh=f46db8315f8a9f1fc606718a36075ad5&oe=5CED3730', txt: 'Cookie Hangout (2015)'},
+      {index: 0, src: 'https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/56208369_2302182473382878_7861365635878486016_n.jpg?_nc_cat=111&_nc_ht=scontent-dfw5-1.xx&oh=0fa99ed3612797ac8a9821e67369d9a1&oe=5D3ED08F'},
+      {index: 1, src: 'https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/56472471_2302182423382883_5633114406322700288_n.jpg?_nc_cat=110&_nc_ht=scontent-dfw5-1.xx&oh=c880cf4a47430e3b3420f3e7dbded06a&oe=5D3C262A'},
+      {index: 2, src: 'https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/55943889_2302182193382906_7535403890427035648_n.jpg?_nc_cat=107&_nc_ht=scontent-dfw5-1.xx&oh=a2cc68e6c6ba9b6e230942216206a1a5&oe=5D35CB1B'},
+      {index: 3, src: 'https://scontent-dfw5-1.xx.fbcdn.net/v/t1.0-9/56656117_2302182186716240_1239919477391360000_n.jpg?_nc_cat=101&_nc_ht=scontent-dfw5-1.xx&oh=1d37bfda3665b22f10a6ba7d9fa2e9b9&oe=5D4EEA0A'},
+      {index: 4, src: 'https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/52522634_2275902656010860_1992630788281073664_n.jpg?_nc_cat=110&_nc_ht=scontent-dfw5-2.xx&oh=5db7538cc1385d405288d5a7e2e42913&oe=5CE27BF6', txt: 'LBT Barbacking Days (2016)'},
+      {index: 5, src: 'https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/51879044_2275902729344186_1707330906970128384_n.jpg?_nc_cat=108&_nc_ht=scontent-dfw5-2.xx&oh=9a6e852de731527f6482a0391775ac64&oe=5CE6610A', txt: 'Bea and I LBT Work Party (2016)'},
+      {index: 6, src: 'https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/52743958_2275902886010837_7991404704296861696_n.jpg?_nc_cat=104&_nc_ht=scontent-dfw5-2.xx&oh=e86ea9717bbe3b2f5af84d1d98ba84ac&oe=5D25ECA6', txt: 'Euless, Texas (2016'},
+      {index: 7, src: 'https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/52595927_2275902909344168_4691275984375119872_n.jpg?_nc_cat=108&_nc_ht=scontent-dfw5-2.xx&oh=b8e217f21b95c60a7cf94d83e2b4c422&oe=5D26E969', txt: 'Unknown Location (2016)'},
+      {index: 8, src: 'https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/52331964_2275903016010824_1450727183927476224_n.jpg?_nc_cat=105&_nc_ht=scontent-dfw5-2.xx&oh=ab6b802f17accedb65085fcbbd151f5f&oe=5CEA8452', txt: 'Chill Times (2015)'},
+      {index: 9, src: 'https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/52453408_2275903182677474_7093181134074281984_n.jpg?_nc_cat=108&_nc_ht=scontent-dfw5-2.xx&oh=9b24865b801508b06a1b1b8b14bbdc36&oe=5CE9BEEA', txt: 'Cookie Hangout (2015)'},
+      {index: 10, src: 'https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/52649409_2275903252677467_7100436600852578304_n.jpg?_nc_cat=110&_nc_ht=scontent-dfw5-2.xx&oh=f46db8315f8a9f1fc606718a36075ad5&oe=5CED3730', txt: 'Cookie Hangout (2015)'},
     ]
     this.gallery2 = [
       {index: 0, src: 'https://scontent-dfw5-2.xx.fbcdn.net/v/t1.0-9/52460345_2275903319344127_1691494409067036672_n.jpg?_nc_cat=111&_nc_ht=scontent-dfw5-2.xx&oh=16c2c0a1e75c8636770309b544c96298&oe=5D250977', txt: 'Alex Selfie Euless, Texas (2016)'},

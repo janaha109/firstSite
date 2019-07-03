@@ -7,7 +7,7 @@ import { AppComponent } from './app.component';
 import { ProfileComponent } from './profile/profile.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { ContactComponent } from './contact/contact.component';
-import { SampleComponent } from './sample/sample.component';
+
 
 
 @NgModule({
@@ -16,7 +16,6 @@ import { SampleComponent } from './sample/sample.component';
     HomepageComponent,
     ProfileComponent,
     ContactComponent,
-    SampleComponent,
   ],
   imports: [
     BrowserModule,
