@@ -1,34 +1,42 @@
-<div style="width: 180vw; height: 300vh; background-color: rgb(231, 214, 220)">
-  <br>
+<div style="background-color: rgb(231, 214, 220)">
+  <div class="row">
     <div class="col">
-  <div class="row justify-content-center"> 
-  <div id="g1s{{slide.index}}" class="col-4" [hidden]="galleryView(1, slide.index)" *ngFor="let slide of gallery1">
-    <div>{{slide.index + 1}} / {{gallery1.length}}</div>
-    <img src="{{slide.src}}" style="width:100%">
-    <div>{{slide.txt}}</div>
-  </div>
-</div>
-<div class="row">
-  <div class="col">
-    <button style="position: absolute; right: 0px" (click)="left(1)">GO LEFT</button>
-  </div>
-  <div class="col">
-    <button (click)="right(1)">GO RIGHT</button>
-  </div>
-</div>
-
-<div class="row justify-content-center"> 
-  <div id="g2s{{slide.index}}" class="col-4" [hidden]="galleryView(2, slide.index)" *ngFor="let slide of gallery2">
-    <div>{{slide.index + 1}} / {{gallery2.length}}</div>
-    <img src="{{slide.src}}" style="width:100%">
-    <div>{{slide.txt}}</div>
-  </div>
-</div>
-<div class="row">
-  <div class="col">
-    <button style="position: absolute; right: 0px" (click)="left(2)">GO LEFT</button>
-  </div>
-  <div class="col">
-    <button (click)="right(2)">GO RIGHT</button>
+      <div class="row">
+        <div class="col">
+          <button style="position: absolute; right: 0px" (click)="left(1)">GO LEFT</button>
+        </div>
+        <div class="col">
+          <button (click)="right(1)">GO RIGHT</button>
+        </div>
+      </div>
+      <div class="row justify-content-center">
+        <div id="g1s{{slide.index}}" class="col-4" [hidden]="galleryView(1, slide.index)"
+          *ngFor="let slide of gallery1">
+          <div>{{slide.index + 1}} / {{gallery1.length}}</div>
+          <img src="{{slide.src}}" style="width:100%">
+          <div>{{slide.txt}}</div>
+        </div>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col">
+        <div class="row">
+          <div class="col">
+            <button style="position: absolute; right: 0px" (click)="left(2)">GO LEFT</button>
+          </div>
+          <div class="col">
+            <button (click)="right(2)">GO RIGHT</button>
+          </div>
+        </div>
+        <div class="row justify-content-center">
+          <div id="g2s{{slide.index}}" class="col-4" [hidden]="galleryView(2, slide.index)"
+            *ngFor="let slide of gallery2">
+            <div>{{slide.index + 1}} / {{gallery2.length}}</div>
+            <img src="{{slide.src}}" style="width:100%">
+            <div>{{slide.txt}}</div>
+          </div>
+        </div>
+      </div>
+    </div>
   </div>
 </div>
