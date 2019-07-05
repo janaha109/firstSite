@@ -7,6 +7,7 @@ import { AppComponent } from './app.component';
 import { ProfileComponent } from './profile/profile.component';
 import { HomepageComponent } from './homepage/homepage.component';
 import { ContactComponent } from './contact/contact.component';
+import { FormsModule }   from '@angular/forms';
 
 
 
@@ -20,7 +21,8 @@ import { ContactComponent } from './contact/contact.component';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    CommonModule
+    CommonModule,
+    FormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]

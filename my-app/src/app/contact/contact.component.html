@@ -1,4 +1,4 @@
-<div style="width: 100vw; height: 100vh; background-color: rgb(231, 214, 220)">
+<div style="width: 100vw; height: 100%; background-color: rgb(231, 214, 220)">
   <br>
   <div class="icon-bar">
     <a href="https://www.facebook.com/" class="facebook"><i class="fab fa-facebook"></i></a>
@@ -9,11 +9,25 @@
   </div>
 
   <form>
-    Name: <input type="text" name="name"><br>
-    Thought Process: <input type="text" name="thoughts"><br>
+    Name: <input [(ngModel)]="nameVal" type="text" name="name"><br>
+    Thought Process: <input [(ngModel)]="thoughtVal" type="text" name="thoughts"><br>
     <br>
-    <button>
+    <button (click)="addResponse()">
       Yas Queen
     </button>
   </form>
+  <div class="scrollBox">
+    <div *ngFor="let response of responses">
+      <div *ngIf="response.id % 2 == 1" class="circle-rbase">
+        {{response.name}} says: {{response.thought}}
+        <div class="circle-r1"></div>
+        <div class="circle-r2"></div>
+      </div>
+      <div *ngIf="response.id % 2 == 0" class="circle-lbase">
+        {{response.name}} says: {{response.thought}}
+        <div class="circle-l1"></div>
+        <div class="circle-l2"></div>
+      </div>
+    </div>
+  </div>
 </div>

@@ -5,6 +5,7 @@
   -ms-transform: translateY(-50%);
   transform: translateY(-50%);
 }
+
 .icon-bar a {
   display: block;
   text-align: center;
@@ -13,9 +14,11 @@
   color: white;
   font-size: 20px;
 }
+
 .icon-bar a:hover {
   background-color: #000;
 }
+
 .socialIcon {
   padding: 20px;
   font-size: 30px;
@@ -52,4 +55,102 @@
 .youtube {
   background: #fc101b;
   color: white;
+}
+
+.scrollBox {
+  width: 100%;
+  height: 300px;
+  overflow-y: scroll;
+}
+
+.circle-rbase {
+  max-width: 500px;
+  min-width: 200px;
+  border: 5px solid #00bfb6;
+  padding: 10px 25px;
+  margin: 10px 10px 10px 250px;
+  border-radius: 30px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 900;
+  font-family: arial;
+  position: relative;
+  color: #00bfb6;
+}
+
+.circle-r1 {
+  border: 5px solid #00bfb6;
+  position: absolute;
+  width: 25px;
+  padding: 20px;
+  border-radius: 50%;
+  right: -15px;
+  bottom: 23px;
+}
+
+.circle-r1:before {
+  content: "";
+  position: absolute;
+  width: 25px;
+  padding: 20px;
+  border-radius: 50%;
+  right: 0px;
+  bottom: 0px;
+  background: #fff;
+}
+
+.circle-r2 {
+  border: 5px solid #00bfb6;
+  position: absolute;
+  width: 5px;
+  padding: 10px 15px;
+  border-radius: 50%;
+  right: -60px;
+  bottom: 5px;
+}
+
+.circle-lbase {
+  max-width: 500px;
+  min-width: 200px;
+  border: 5px solid #00bfb6;
+  padding: 10px 20px;
+  margin: 10px 10px 10px 65px;
+  border-radius: 30px;
+  text-align: center;
+  font-size: 24px;
+  font-weight: 900;
+  font-family: arial;
+  position: relative;
+  color: #00bfb6;
+}
+
+.circle-l1 {
+  border: 5px solid #00bfb6;
+  position: absolute;
+  width: 25px;
+  padding: 20px;
+  border-radius: 50%;
+  left: -10px;
+  bottom: 10px;
+}
+
+.circle-l1:before {
+  content: "";
+  position: absolute;
+  width: 25px;
+  padding: 20px;
+  border-radius: 50%;
+  right: 0px;
+  bottom: 0px;
+  background: #fff;
+}
+
+.circle-l2 {
+  border: 5px solid #00bfb6;
+  position: absolute;
+  width: 5px;
+  padding: 10px 15px;
+  border-radius: 50%;
+  left: -60px;
+  bottom: 5px;
 }
